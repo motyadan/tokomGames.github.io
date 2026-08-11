@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tokom Games | Игры нового уровня</title>
+    <meta name="description" content="Официальный сайт инди-студии tokom. Играйте в наши новейшие игры, такие как Block Jumper.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="bg-animation">
+        <div class="glow-orb orb-1"></div>
+        <div class="glow-orb orb-2"></div>
+        <div class="glow-orb orb-3"></div>
+    </div>
+
+    <header class="navbar">
+        <div class="container nav-content">
+            <h1 class="logo">tokom<span>.</span></h1>
+            <nav class="nav-links">
+                <a href="#games" class="active">Игры</a>
+                <a href="#about">О нас</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container hero-content">
+                <h2 class="hero-title">Создаем миры, в которые <span>хочется</span> играть.</h2>
+                <p class="hero-subtitle">Добро пожаловать на официальный портал инди-студии tokom. Погрузитесь в наши проекты.</p>
+                <a href="#games" class="btn-primary">Смотреть игры</a>
+            </div>
+        </section>
+
+        <section id="games" class="games-section">
+            <div class="container">
+                <h3 class="section-title">Наши проекты</h3>
+                
+                <div class="games-grid">
+                    <!-- Game Card: Block Jumper -->
+                    <div class="game-card glassmorphism">
+                        <div class="game-card-content">
+                            <h4 class="game-title">Block Jumper</h4>
+                            <p class="game-desc">Испытайте свою реакцию в захватывающем 3D платформере. Прыгайте по блокам и доберитесь до вершины!</p>
+                            <div class="game-embed">
+                                <iframe frameborder="0" src="https://itch.io/embed/4886265?bg_color=1c1c28&fg_color=e0e0e0&link_color=6366f1&border_color=2d2d3f" width="100%" height="167"><a href="https://motyadan.itch.io/block-jumper">Block Jumper by motyadan</a></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="about" class="footer">
+        <div class="container">
+            <p>&copy; <span id="year"></span> tokom Games. Все права защищены.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
